@@ -1,0 +1,66 @@
+@import url("/fonts/stylesheet.css");
+@import url("/css/header.css");
+@import url("/css/products.css");
+
+
+:root {
+  --gap: 32px;
+  --hard-grey: #535658;
+  --light-white: #ECF0F4;
+  --black: #000000;
+  --yellow: #F1D264;
+}
+
+* {
+  box-sizing: border-box;
+  border: none;
+  outline: 1px pink solid;
+}
+
+
+body {
+  font-family: 'RubikRegular', sans-serif;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border-radius: 5px;
+}
