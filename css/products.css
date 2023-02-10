@@ -20,11 +20,14 @@
 }
 
 .products__card__descr{
-
+  margin: 10px 25px 25px 25px;
+  display: flex;
+  flex-direction: column;
 }
 
 .products__card__descr__name{
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .products__card__descr__price{
@@ -32,6 +35,7 @@
   font-size: 20px;
   line-height: 22px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .products__card__descr__add{
@@ -43,6 +47,8 @@
   display: flex;
   border-color: var(--light-white);
   border-radius: 5px;
+  width: 100px;
+  height: 50px;
 }
 
 .minus__item,
@@ -52,6 +58,7 @@
 
 .products__card__descr__add__qty__input{
   text-align: center;
+  width: 100%;
 }
 
 
@@ -60,9 +67,12 @@
   display: flex;
   background-color: var(--yellow);
   padding: 15px 35px ;
+  font-family: 'RubikMedium', sans-serif;
   font-weight: 500;
   font-size: 14px;
   align-items: center;
+  line-height: 16.59px;
+  color: var(--black);
 }
 
 .products__card__descr__add__cart__logo{
