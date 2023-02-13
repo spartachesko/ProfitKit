@@ -1,5 +1,4 @@
-const container = document.querySelector(".container");
-const swiper = new Swiper('.products__card__swiper', {
+const swiper = new Swiper('.swiper', {
 	slidesPerView: 1,
 	slidesPerGroup: 1,
   speed: 300,
@@ -12,5 +11,5 @@ const swiper = new Swiper('.products__card__swiper', {
     el: '.swiper-pagination',
     type: 'bullets',
 		clickable: true
-  }
+  },
 });

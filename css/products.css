@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.swiper{
+  width: 100%;
+}
+
 img {
   width: 100%;
   object-fit: cover;
@@ -27,7 +31,7 @@ img {
 }
 
 .swiper-container{
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .swiper-wrapper{
@@ -35,7 +39,8 @@ img {
 }
 
 .products__card {
-  position: relative;
+  /* position: relative; */
+  position: absolute;
   height: 496px;
   width: 394px;
   display: flex;
