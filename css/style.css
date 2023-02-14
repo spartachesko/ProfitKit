@@ -52,9 +52,11 @@ li {
 
 .container {
   max-width: 1920px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding-left: 75px;
   padding-right: 75px;
+  display: flex;
+  /* min-height: 1000px; */
 }
 
 img {
