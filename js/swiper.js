@@ -1,6 +1,6 @@
 const swiper1 = new Swiper('.swiper1', {
-	slidesPerView: 1,
-	slidesPerGroup: 1,
+	slidesPerView: 3,
+	slidesPerGroup: 3,
   speed: 300,
   loop: true,
   navigation: {
